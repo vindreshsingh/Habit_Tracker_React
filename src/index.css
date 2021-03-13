@@ -1,0 +1,35 @@
+@import '~antd/dist/antd.css';
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* input box styling */
+.input-container {
+  margin-top: 50px;
+}
+
+/* layout styling */
+.layout {
+  min-height: 100vh;
+  background-color: rebeccapurple;
+}
+
+/* card spacing */
+.site-card-wrapper{
+  background-color: rgb(226, 49, 49);
+}
+.site-card-wrapper,
+.tracker-container {
+  margin-top: 30px;
+  background-color: aqua;
+}
